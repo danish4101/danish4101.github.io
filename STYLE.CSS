@@ -1,16 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: bisque;
+  background-image: url("https://w0.peakpx.com/wallpaper/985/489/HD-wallpaper-premium-abstract-black-background-with-line-stripes-pattern-dynamic-tech-graphic-banner-design-vector-corporate-background.jpg");
 }
-
-.main {
-  width: 100px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0)50%, rgba(0, 0, 0, 0)50%), url(1.jpg);
-  background-position: center;
-  background-size: 109vh;
-}
-
-.navbar {
+.main .navbar {
   width: 1200px;
   height: 75px;
   margin: auto;
@@ -23,16 +17,13 @@
 }
 
 .name {
-  color: rgb(0, 0, 0);
-  font-size: 35px;
+  color: rgb(254, 253, 253);
+  font-size: 10px;
   font-family: Arial;
-  padding-left: 20px;
+  padding-left: 10px;
   float: left;
-  padding-top: 10px;
-
+  padding-top: 100px;
 }
-
-
 
 ul {
   float: left;
@@ -43,36 +34,35 @@ ul {
 
 ul li {
   list-style: circle;
-  margin-left: 62px;
+  margin-left: 2px;
   margin-right: 27px;
   font-size: 14px;
+  color: white;
 }
 
 ul li a {
   text-decoration: none;
-  color: black;
+  color: rgb(245, 245, 245);
   font-family: Arial;
 
   font-weight: bold;
-
 }
 
 ul li a:hover {
-  color: rgb(70, 169, 93)
+  color: rgb(70, 169, 93);
 }
 
 p {
   font-size: 20px;
   width: px;
-  padding: center;
+  padding-left: 85px;
   float: center;
+  color: white;
 }
-
 
 .mee {
   width: 300px;
   height: 300px;
   margin: 50px;
   padding: center;
-
 }
