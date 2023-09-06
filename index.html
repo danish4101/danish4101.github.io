@@ -1,47 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danish's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 45);
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(0, 0, 56);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(44, 45, 117);
+        font-size: 1rem;
+      }
+      main hr {
+        height: 2.2px;
+        border: 0;
+        background-color: rgb(41, 20, 20);
+        margin: 60px 75px;
+      }
 
-<head>
+      .left {
+        font-size: 1.5rem;
+      }
 
-  <title>Porfolio</title>
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 140px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .blue {
+        color: rgb(0, 30, 152);
+      }
+      .gray {
+        color: gray;
+      }
 
-</head>
+      #element {
+        color: rgb(0, 30, 152);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
 
-<body>
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
 
-  <div class="navbar">
-    <div class="aboutme">
-   
-      </h1>
-      <h2 class="name">Hi! I'm <b>Danish</b> This is my portfolio website</h2>
-    </div>
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 76px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font: 9px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="div left">Danish's Portfolio</div>
+        <div class="div right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-    <div class="manu">
-      
-      <ul>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="blue">Danish</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="bggg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="gray">What I have done so far</span>
+        <h1>Work Experience</h1>
 
-        <li><a href="https://github.com/danish4101/danish4101.github.io">Github</a></li>
-        <li><a
-            href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">LinkedIn</a>
-        </li>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="bggg.png" alt="" />
+            <div class="vertical-title">HTML Developer (2021-2023)</div>
 
-        <li><a
-            href="https://docs.google.com/document/d/1-NSwtMwVIiisPAvOFzZTn74tSKd6C8ld4tq8W1Ss5ek/edit?usp=sharing">Resume</a>
-        </li>
-        <li><a href="link.txt" ]]>About Me</a></li>
-        <li><a href="">Projects</a></li>
-      </ul>
+            <div class="vertical-desc">
+              Blah scajon wndo evaon vednjoeovjq acso j ewno novaednd v wod
+              vewodnde vwnopndc fqenwoi d ock. dcojn ?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="bg.png" alt="" />
+            <div class="vertical-title">HTML Developer (2021-2023)</div>
 
-    </div>
-<p> SOFTWARE ENGINEER</p>
-  </div>
-  </div>
+            <div class="vertical-desc">
+              Blah scajon wndo evaon vednjoeovjq acso j ewno novaednd v wod
+              vewodnde vwnopndc fqenwoi d ock. dcojn ?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="bg.png" alt="" />
+            <div class="vertical-title">HTML Developer (2021-2023)</div>
 
-  <img src="images/mee.jpg" class="mee">
-  <img href="https://w0.peakpx.com/wallpaper/985/489/HD-wallpaper-premium-abstract-black-background-with-line-stripes-pattern-dynamic-tech-graphic-banner-design-vector-corporate-background.jpg">
+            <div class="vertical-desc">
+              Blah scajon wndo evaon vednjoeovjq acso j ewno novaednd v wod
+              vewodnde vwnopndc fqenwoi d ock. dcojn ?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="bg.png" alt="" />
+            <div class="vertical-title">HTML Developer (2021-2023)</div>
 
+            <div class="vertical-desc">
+              Blah scajon wndo evaon vednjoeovjq acso j ewno novaednd v wod
+              vewodnde vwnopndc fqenwoi d ock. dcojn ?
+            </div>
+          </div>
 
-</body>
-
+          <div class="vertical">Node.js Developer (2021-2023)</div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Web Developer",
+          "Video Editor",
+          "Web Developer",
+        ],
+        typeSpeed: 60,
+      });
+    </script>
+  </body>
 </html>
