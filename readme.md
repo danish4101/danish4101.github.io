@@ -1,8 +1,8 @@
-# Portfolio Pages
+# Personal Portfolio Pages
 
 ## Instructions
 
-Create a personal portfolio page using HTML and CSS and deploy it to [GitHub Pages](https://pages.github.com/). Please refer to the documentation on GitHub for detailed instructions!
+Welcome to my personal portfolio page! This repository contains the code and assets for my online portfolio, showcasing my skills, projects, and more.
 
 ## Requirements
 
