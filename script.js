@@ -6,7 +6,7 @@ var typed = new Typed("#element", {
     "Graphic Designer",
     "Front-end Developer",
     "Graphic Designer",
-    
+    "Front-end Developer",
     
    
   ],
