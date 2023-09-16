@@ -1,10 +1,14 @@
 var typed = new Typed("#element", {
   strings: [
-    "Web Developer",
+    "Front-end Developer",
     "Graphic Designer",
-    "Web Developer",
-    "Video Editor",
-    "Web Developer",
+    "Front-end Developer",
+    "Graphic Designer",
+    "Front-end Developer",
+    "Graphic Designer",
+    
+    
+   
   ],
   typeSpeed: 60,
 });
